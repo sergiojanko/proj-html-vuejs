@@ -11,13 +11,7 @@
             </div>
             <div class="row">
                 <div v-for="(card, index) in cards" :key="index" class="col-4">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body">
-                            <i class="fas" :class="card.icon"></i>
-                            <h5 class="card-title">{{card.title}}</h5>
-                            <p class="card-text">{{card.text}}</p>
-                        </div>
-                    </div>
+                    <Card :title="card.title" :text="card.text" :icon="card.icon"/>
                 </div>
             </div>
             <div class="row mx-auto">
@@ -30,23 +24,28 @@
 </template>
 
 <script>
+import Card from "@/components/Card.vue"
+
 export default {
 name: "InfoSection",
+components: {
+    Card,
+},
 data(){
     return {
         cards: [
             {
-                icon: "fa-road",
+                icon: "fas fa-road",
                 title: "Establish Goals",
                 text: "lorem ipsum dolor",
             },
             {
-                icon: "fa-video",
+                icon: "fas fa-video",
                 title: "Work With a Team",
                 text: "lorem ipsum dolor",
             },
             {
-                icon: "fa-tint",
+                icon: "fas fa-tint",
                 title: "Get Results",
                 text: "lorem ipsum dolor",
             },
