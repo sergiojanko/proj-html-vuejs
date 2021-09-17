@@ -2,14 +2,14 @@
   <section id="plans" class="text-center">
     <div class="container">
       <div class="row">
-        <div class="col-12 text-white">
+        <div class="col-12 text-white mt-2">
           <h2>Our Plans</h2>
         </div>
         <div class="col-12 text-white">
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima iusto odit quaerat error, facilis odio aliquam cumque est fugit sint delectus corrupti, adipisci ut impedit praesentium tempore vero non nobis?</p>
         </div>
-        <div v-for="(plan, index) in plans" :key="index" class="col-3">
-          <div class="plan-card">
+        <div v-for="(plan, index) in plans" :key="index" class="col-3 p-3">
+          <div class="plan-card p-3 mb-5">
             <h3>{{plan.title}}</h3>
             <div class="price">
               {{plan.price}}

@@ -1,6 +1,6 @@
 <template>
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
+    <div class="card">
+        <div class="card-body p-2 m-2">
                 <i :class="icon"></i>
                 <h5 class="card-title">{{title}}</h5>
                 <p class="card-text">{{text}}</p>
@@ -23,6 +23,12 @@ props: ["title","text","icon","bottomText"]
 i
 {
     color: $primary;
+};
+
+.btn a
+{
+    color: $primary;
+    text-decoration: none;
 }
 
 

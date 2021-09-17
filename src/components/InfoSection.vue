@@ -5,11 +5,11 @@
                 <h2>Meet The New Agency SEO Templt FromTh Avada Team</h2>
             </div>
             <div class="row">
-                <div class="col">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, molestiae eligendi temporibus delectus non cupiditate eius, numquam esse nisi necessitatibus quo laborum quasi commodi, placeat assumenda voluptatibus quos quod blanditiis.</p>
+                <div class="col d-flex justify-content-center">
+                    <p class="w-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, molestiae eligendi temporibus delectus non cupiditate eius, numquam esse nisi necessitatibus quo laborum quasi commodi, placeat assumenda voluptatibus quos quod blanditiis.</p>
                 </div>
             </div>
-            <div class="row justify-content-center">
+            <div class="row">
                 <div v-for="(card, index) in cards" :key="index" class="col-4">
                     <Card :title="card.title" :text="card.text" :icon="card.icon"/>
                 </div>

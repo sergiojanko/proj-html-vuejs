@@ -4,7 +4,7 @@
         <img src="@/assets/images/logo_seo_w_1x.png" alt="AvadaSEO" width="150" class="d-inline-block align-text-top">
     </a>
       <ul class="navbar">
-        <li v-for="link in links" :key="link">{{link}}</li>
+        <li v-for="link in links" :key="link" class="p-2">{{link}}</li>
         <li>
              <button type="button" class="btn btn-prim">Get in touch Now</button>
         </li>

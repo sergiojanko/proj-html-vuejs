@@ -25,12 +25,4 @@ export default {
 <style lang="scss">
 @import "@/assets/scss/style.scss";
 
-*
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
-
 </style>

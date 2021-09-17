@@ -1,12 +1,12 @@
 <template>
-  <section id="services">
-    <div class="container text-white text-center">
-      <div class="row">
+  <section id="services" class="p-3">
+    <div class="container text-white text-center p-2 mb-5">
+      <div class="row m-3">
         <div class="col-12">
           <h2>See Our Top Notch Services</h2>
         </div>
-        <div class="col-12 text-center">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi totam deleniti eaque adipisci eum possimus dicta in quidem. Totam, nemo necessitatibus nulla eius deserunt blanditiis error voluptates facilis nihil veniam.</p>
+        <div class="col-12 text-center d-flex justify-content-center">
+          <p class="w-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi totam deleniti eaque adipisci eum possimus dicta in quidem. Totam, nemo necessitatibus nulla eius deserunt blanditiis error voluptates facilis nihil veniam.</p>
         </div>
       </div>
       <div class="row">
@@ -65,11 +65,11 @@ data(){
 {
   background-color: $dark-blue;
   background-image: url("../assets/images/lines-1.png");
-  background-size: cover;
+  background-size: contain;
   .container{
       background-image: url("../assets/images/pattern_background.png");
       background-size: contain;
-      background-repeat: no-repeat;
+      background-repeat: repeat;
   }
   .card {
     background-color: $blue;

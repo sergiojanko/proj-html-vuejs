@@ -1,7 +1,7 @@
 <template>
-  <header>
+  <header class="pb-5">
       <div class="container text-white">
-          <div class="row">
+          <div class="row p-2">
               <div class="col">
                   <Navbar/>
               </div>             
