@@ -1,6 +1,6 @@
 <template>
     <section id="info-section">
-        <div class="container">
+        <div class="container text-center">
             <div class="row">
                 <h2>Meet The New Agency SEO Templt FromTh Avada Team</h2>
             </div>
@@ -9,7 +9,7 @@
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, molestiae eligendi temporibus delectus non cupiditate eius, numquam esse nisi necessitatibus quo laborum quasi commodi, placeat assumenda voluptatibus quos quod blanditiis.</p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row justify-content-center">
                 <div v-for="(card, index) in cards" :key="index" class="col-4">
                     <Card :title="card.title" :text="card.text" :icon="card.icon"/>
                 </div>

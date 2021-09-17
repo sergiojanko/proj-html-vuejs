@@ -6,6 +6,7 @@
                 <p class="card-text">{{text}}</p>
         </div>
     </div>
+    
 </template>
 
 <script>
@@ -15,6 +16,13 @@ props: ["title","text","icon"]
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+@import "@/assets/scss/_variables.scss";
+
+i
+{
+    color: $primary;
+}
+
 
 </style>

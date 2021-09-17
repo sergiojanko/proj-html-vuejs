@@ -1,6 +1,6 @@
 <template>
   <section id="services">
-    <div class="container">
+    <div class="container text-white text-center">
       <div class="row">
         <div class="col-12">
           <h2>See Our Top Notch Services</h2>
@@ -34,22 +34,22 @@ data(){
       {
         icon: "fab fa-google",
         title: "Google SEO",
-        text: "lorem ipsum dolor",
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum earum vero eius quas numquam fugit sequi pariatur porro ratione quos ducimus quod id laborum, error quasi non, totam, nihil sunt!",
       },
       {
         icon: "fas fa-cog",
         title: "Brand strategy",
-        text: "lorem ipsum dolor",
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum earum vero eius quas numquam fugit sequi pariatur porro ratione quos ducimus quod id laborum, error quasi non, totam, nihil sunt!",
       },
       {
         icon: "fas fa-building",
         title: "Local SEO",
-        text: "lorem ipsum dolor",
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum earum vero eius quas numquam fugit sequi pariatur porro ratione quos ducimus quod id laborum, error quasi non, totam, nihil sunt!",
       },
       {
         icon: "fas fa-chart-bar",
         title: "SEO Analysis",
-        text: "lorem ipsum dolor",
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum earum vero eius quas numquam fugit sequi pariatur porro ratione quos ducimus quod id laborum, error quasi non, totam, nihil sunt!",
       },
     ],
   }
@@ -57,6 +57,24 @@ data(){
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 
+@import "@/assets/scss/_variables.scss";
+
+#services
+{
+  background-color: $dark-blue;
+  background-image: url("../assets/images/lines-1.png");
+  background-size: cover;
+  .container{
+      background-image: url("../assets/images/pattern_background.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+  }
+  .card {
+    background-color: $blue;
+    border: none;
+  }
+}
 </style>
+
