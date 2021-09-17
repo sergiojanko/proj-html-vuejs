@@ -1,0 +1,12 @@
+@import "variables";
+
+.btn.btn-prim {
+  background-color: $primary;
+  border-radius: 20px;
+  color: white;
+}
+.btn.btn-sec {
+  background-color: $secondary;
+  border-radius: 20px;
+  color: white;
+}

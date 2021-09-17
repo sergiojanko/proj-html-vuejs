@@ -12,7 +12,7 @@
       <div class="row">
         <div v-for="(card, i) in cards" :key="i" class="col-3">
           <div class="card">
-            <Card :title="card.title" :icon="card.icon" :text="card.text"/>
+            <Card :title="card.title" :icon="card.icon" :text="card.text" :bottomText="'Read More >'"/>
           </div>
         </div>
       </div>

@@ -19,7 +19,7 @@
           </div>
         </div>
         <div class="col-12">
-          <button type="button" class="btn"> GO TO NEWS</button>
+          <button type="button" class="btn btn-prim"> GO TO NEWS</button>
         </div>
       </div>
     </div>

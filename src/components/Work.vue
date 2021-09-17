@@ -12,7 +12,7 @@
           <img :src="getImageUrl(img)" alt="case study">
         </div>
         <div class="col">
-          <button type="button" class="btn">VIEW OUR WORK</button>
+          <button type="button" class="btn btn-prim">VIEW OUR WORK</button>
         </div>
       </div>
     </div>

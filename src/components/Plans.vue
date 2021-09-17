@@ -23,7 +23,7 @@
             <p class="users">
               {{plan.users}}
             </p>
-            <button type="button" class="btn">START TODAY</button>
+            <button type="button" class="btn btn-prim">START TODAY</button>
           </div>
         </div>
       </div>

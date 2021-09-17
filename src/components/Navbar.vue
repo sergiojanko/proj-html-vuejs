@@ -6,7 +6,7 @@
       <ul class="navbar">
         <li v-for="link in links" :key="link">{{link}}</li>
         <li>
-             <button type="button" class="btn">Get in touch Now</button>
+             <button type="button" class="btn btn-prim">Get in touch Now</button>
         </li>
       </ul>
   </div>

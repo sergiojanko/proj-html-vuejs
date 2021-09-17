@@ -4,6 +4,7 @@
                 <i :class="icon"></i>
                 <h5 class="card-title">{{title}}</h5>
                 <p class="card-text">{{text}}</p>
+                <p class="btn" :class="!bottomText ? 'd-none':''"><a href="#">{{bottomText}}</a></p>
         </div>
     </div>
     
@@ -12,7 +13,7 @@
 <script>
 export default {
 name: "Card",
-props: ["title","text","icon"]
+props: ["title","text","icon","bottomText"]
 }
 </script>
 
