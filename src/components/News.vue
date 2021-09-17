@@ -18,6 +18,9 @@
             </div>
           </div>
         </div>
+        <div class="col-12">
+          <button type="button" class="btn"> GO TO NEWS</button>
+        </div>
       </div>
     </div>
     
